@@ -5,6 +5,7 @@
   "main": "point-to-segment-2d.js",
   "type": "module",
   "scripts": {
+    "prepublishOnly": "npm test",
     "test": "node test/test.js"
   },
   "repository": {

@@ -34,7 +34,7 @@ t.equal(distToSegmentSquared([ -2, 0 ], [ -10, 0 ], [ 10, 0 ]), 0)
   o
 (-25, -5)
 */
+t.equal(dist([ -5, -5 ], [ -10, 0 ], [ 0, 0 ]), 5)
 t.equal(dist([ -5, 5 ], [ -10, 0 ], [ 0, 0 ]), 5)
 t.equal(dist([ -25, -5 ], [ -10, 0 ], [ 0, 0 ]), 15.811388300841896)
-
 t.equal(distToSegmentSquared([ -25, -5 ], [ -10, 0 ], [ 0, 0 ]), 250)
